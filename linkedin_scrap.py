@@ -22,11 +22,11 @@ username.send_keys("dfbau2002@gmail.com")
 pword = driver.find_element_by_id("password")
   
 # Enter Your Password
-pword.send_keys("52104375")        
+pword.send_keys(['PSW'])        
   
 # Clicking on the log in button
 # Format (syntax) of writing XPath --> 
-# //tagname[@attribute='value']
+# //tagname[@attribute='vgitalue']
 driver.find_element_by_xpath("//button[@type='submit']").click()
 
 profile_url = "https://www.linkedin.com/in/nicolasrbernal/"
